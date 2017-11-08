@@ -9,16 +9,16 @@
         display: flex;
         width: 100%;
     }
-    
+
     .film-list li {
         list-style: none;
         cursor: pointer;
     }
-    
+
     .film-break {
         text-overflow: ellipsis;
     }
-    
+
     .character-box {
         top: 95%;
         position: absolute;
@@ -28,6 +28,31 @@
         background: #f1f1f1;
         padding: 20px;
         left: 0;
+    }
+
+    .body-mask {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        opacity: 0.7;
+        background: #FFF;
+        padding: 0;
+        margin: 0 !important;
+    }
+
+    .hide {
+        display: none;
+    }
+
+    .people-modal-dialog {
+        margin-top: 20%;
+        background: #000;
+        padding: 5%;
+        z-index: 9999999;
+        color: #FFFF;
+        opacity: unset;
     }
     </style>
 </head>
